@@ -110,8 +110,12 @@ Officially standardized, in May 2015, HTTP/2 has had much success. By July 2016,
 <div align="justify"
 HTTP/3 is the third and upcoming major version of the Hypertext Transfer Protocol used to exchange information on the World Wide Web, alongside HTTP/1.1 and HTTP/2.
 
-HTTP semantics are consistent across versions: the same request methods, status codes, and message fields are typically applicable to all versions. 
-The differences are in the mapping of these semantics to underlying transports. Both HTTP/1.1 and HTTP/2 use TCP as their transport. HTTP/3 uses QUIC, a transport layer network protocol which uses user space congestion control over the User Datagram Protocol (UDP). The switch to QUIC aims to fix a major problem of HTTP/2 called "head-of-line blocking": because the parallel nature of HTTP/2's multiplexing is not visible to TCP's loss recovery mechanisms, a lost or reordered packet causes all active transactions to experience a stall regardless of whether that transaction was impacted by the lost packet. Because QUIC provides native multiplexing, lost packets only impact the streams where data has been lost.
+HTTP semantics are consistent across versions: the same 
+ * request methods 
+ * status codes 
+ * message fields  <br>
+     are typically applicable to all versions. The differences are in the mapping of these semantics to underlying transports. <br> <br>
+ Both HTTP/1.1 and HTTP/2 use TCP as their transport. HTTP/3 uses QUIC, a transport layer network protocol which uses user space congestion control over the User Datagram Protocol (UDP). The switch to QUIC aims to fix a major problem of HTTP/2 called "head-of-line blocking": because the parallel nature of HTTP/2's multiplexing is not visible to TCP's loss recovery mechanisms, a lost or reordered packet causes all active transactions to experience a stall regardless of whether that transaction was impacted by the lost packet. Because QUIC provides native multiplexing, lost packets only impact the streams where data has been lost.
 
 As of July 2021, the HTTP/3 protocol is still officially an Internet Draft but is already supported by 72% of running web browsers
      </div>
