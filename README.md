@@ -12,7 +12,11 @@
 | 2015   | HTTP/2    | protocol for greater performance |      
 
 <br>
-       
+ 
+ ![Timeline of HTTP](https://github.com/prasad66/August_07/blob/main/timeline.JPG)
+  
+ <br>
+ 
 ### HTTP/0.9 — The One-line Protocol (1991)
 ***
 * Initial version of HTTP — a simple client-server, request-response, telenet-friendly protocol
@@ -64,7 +68,7 @@ HTTP/0.9 was very limited and both browsers and servers quickly extended it to b
 <br>
 <div align="jusitfy">These novelties have not been introduced as concerted effort, but as a try-and-see approach over the 1991-1995 period: a server and a browser added one feature and it saw if it got traction. A lot of interoperability problems were common. In November 1996, in order to solve these annoyances, an informational document describing the common practices has been published, RFC 1945. This is the definition of HTTP/1.0 and it is notable that, in the narrow sense of the term, it isn't an official standard. </div>
 
-### HTTP/1.1 - The standardized protocol (1997)
+### HTTP/1.1 - The Standardized Protocol (1997)
 ***
 Since 1995, well before the publication of HTTP/1.0 document the next year, proper standardization was in progress. The first standardized version of HTTP, HTTP/1.1 was published in early 1997, only a few months after HTTP/1.0.
 
