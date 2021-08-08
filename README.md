@@ -4,12 +4,13 @@
 <div align="justify">Invented by Tim Berners-Lee at CERN in the years 1989–1991, HTTP (Hypertext Transfer Protocol) is the underlying communication protocol of World Wide Web. HTTP functions as a request–response protocol in the client–server computing model. HTTP standards are developed by the Internet Engineering Task Force (IETF) and the World Wide Web Consortium (W3C), culminating in the publication of a series of Requests for Comments (RFCs). The following are the versions</div> <br>       
 
 
-| year   | version   |      Features                    |
-| ------ |:---------:| :--------------------------------|
-| 1991   | HTTP/0.9  | The One-line Protocol            |
-| 1996   | HTTP/1.0  | Building extensibility           |
-| 1997   | HTTP/1.1  | The standardized protocol        |
-| 2015   | HTTP/2    | protocol for greater performance |      
+| year   | version   |      Features                      |
+| ------ |:---------:| :----------------------------------|
+| 1991   | HTTP/0.9  | The One-line Protocol              |
+| 1996   | HTTP/1.0  | Building extensibility             |
+| 1997   | HTTP/1.1  | The standardized protocol          |
+| 2015   | HTTP/2    | protocol for greater performance   | 
+| 2015   | HTTP/3    | HTTP over QUIC (upcomming & draft) | 
 
 <br>
  
@@ -88,6 +89,7 @@ HTTP/1.1 clarified ambiguities and introduced numerous improvements:
   * This laid foundation for persistence, reusable connections, pipelining, and many more enhanced capabilities in modern web communication protocols.
 
 ### Hyper Text Transfer Protocol Secure (HTTPS)
+***
 
   * Hyper Text Transfer Protocol Secure (HTTPS) is the secure version of HTTP. It uses SSL/TLS for secure encrypted communications.
   * Originally developed by Netscape in mid-1990s, SSL (Secure Socket Layer) is a cryptographic protocol enhancement to HTTP, which defines how client and server should communicate with each other securely. TLS (Transport Layer Security) is the successor of SSL.
